@@ -1,0 +1,16 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans);
+
+body{
+	font-family: 'work-sans', sans-serif;
+    Background-color:rgba(0,0,0,0.5);
+    color:white;
+    margin-left: 18%;
+	padding-top: 90px;
+	padding-bottom: 90px;
+	text-align:center;
+	overflow:hidden;
+}
+
+h1{
+	font-size: 50px;
+}

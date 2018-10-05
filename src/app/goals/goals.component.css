@@ -1,0 +1,22 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans);
+
+body{
+    font-family: 'work sans', sans-serif;
+    margin-left: 18%;
+    color: white;
+    padding-bottom: 10%;
+}
+
+h1{
+    text-decoration: underline;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+#long-term, #short-term
+{
+    padding-top: 25px;
+    margin-left: 10%;
+    margin-right:10%;
+    font-size: 18px;
+}

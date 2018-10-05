@@ -1,0 +1,53 @@
+<body>
+  <div id="projects" class="projects">
+    <h1>{{title}}</h1>
+    
+    <div id="title"><a href="#"><img src="/src/app/img/Logo.png">{{music}}</a>
+      <button *ngIf="musicCollapsed"(click)="musicCollapse()">Show Details</button>
+      <button *ngIf="!musicCollapsed"(click)="musicCollapse()">Hide Details</button>
+    </div>
+    
+    <div id="description" *ngIf="!musicCollapsed">
+      <p>Description:</p>
+      <p>Chrome extension meant to play music submitted by new artists looking for another way to advertise their work</p>
+      <p>My Role:</p>
+      <p>Design a popup in HTML and CSS, made the UI interactive with JavaScript. Ended up adding a link to a new page to allow the player to run continuously. Currently using my own music until I get submissions to replace them.</p>
+    </div>
+    
+    <div id="title"><a href="#"><img src="/src/app/img/Logo.png">{{bot}}</a>
+      <button *ngIf="botCollapsed" (click)="botCollapse()">Show Details</button>
+      <button *ngIf="!botCollapsed" (click)="botCollapse()">Hide Details</button>
+    </div>
+    
+    <div id="description" *ngIf="!botCollapsed">
+      <p>Description </p>
+      <p>Chatbot written in Python to interact with stream viewers for a Montclair State Charity event</p>
+      <p>My Role:</p>
+      <p>Gave the bot a new account on twitch.tv, connected the bot to the twitch irc and gave the bot commands and functionality.</p>
+    </div>
+    
+    <div id="title"><a href="#"><img src="/src/app/img/KRU.png">{{kru}}</a>
+      <button *ngIf="kruCollapsed" (click)="kruCollapse()">Show Details</button>
+      <button *ngIf="!kruCollapsed" (click)="kruCollapse()">Hide Details</button>
+    </div>
+    
+    <div id="description" *ngIf="!kruCollapsed">
+      <p>Description:</p>
+      <p>Online store for my Databases class using PHP and SQL</p>
+      <p>My Role:</p>
+      <p>Used Montclair State's PHPMyAdmin server to use as a database. Used PHP and SQL to interact with the database. This included login pages, registration pages, deleting products and users, updating products, and creating a cart to make transactions.</p>
+    </div>
+
+    <div id="title"><a href="#"><img src="/src/app/img/PO.png">{{po}}</a>
+      <button *ngIf="poCollapsed" (click)="poCollapse()">Show Details</button>
+      <button *ngIf="!poCollapsed" (click)="poCollapse()">Hide Details</button>
+    </div>
+    
+    <div id="description" *ngIf="!poCollapsed">
+      <p>Description:</p>
+      <p>Basic security software with four clearance levels using Java</p>
+      <p>My Role:</p>
+      <p>Wrote Test Plan, Control Flow Graph, Detailed Design Document, and the User Manual as well as the Login UI, View Users and View Blocked Users pages</p>
+    </div>
+  </div>
+</body>

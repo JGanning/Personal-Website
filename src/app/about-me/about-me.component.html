@@ -1,0 +1,39 @@
+<body id="aboutMe">
+  <img src="/src/app/img/shrek.PNG">
+  <div id="name">{{name}}</div>
+  <div id="resume"><a href="/src/app/img/Resume.pdf">{{resume}}</a></div>
+  <div class="bio">
+      <p>Graduate of Montclair State University with a degree in Computer Science.</p>
+      <p>Seeking a position that will enable me to expand my knowledge and computers skills</p>
+      <p>and gain experience in other technical areas.</p>
+  </div>
+  <div class="education" (click)="toggleEdCollapsed()"><h3>Education</h3></div>
+    <div id="education" *ngIf="!edCollapsed">
+        <div class="box-resume">
+          <p>Montclair State University - Montclair, NJ</p>   
+          <p>Bachelor of Science in Computer Science</p>
+          <p id="details">3.0 GPA</p>              	  	
+          <p id="details">Graduated: May 2018<p>
+        </div>
+      </div>
+  
+  <div class="experience" (click)="toggleExCollapsed()"><h3>Work</h3></div>
+  <div class="box-resume" *ngIf="!exCollapsed">
+		<p>RE/MAX Select - Morristown, NJ</p>
+		<p>Administrative Assistant: January 2018 - April 2018</p>
+		<div id="details">
+			<p>Assist real estate agents with computer and technical issues</p>
+			<p>Create and distribute advertisements for the agents</p>
+			<p>Ensure that paperwork is properly completed for real estate transactions</p>
+		</div>
+		<br>
+		<p>Springbrook Country Club - Morristown, NJ</p>
+		<p>Caddy: May 2012 - Present</p>
+		<div id="details">
+			<p>Forest Hill Field Club - Belleville, NJ</p>
+			<p>Caddy: May 2015 - Present</p>
+			<p>Carry golf clubs and cater to golfer’s needs on the course</p>
+			<p>Train new golf caddy hires</p>
+		</div>
+	</div>
+</body>

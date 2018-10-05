@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans);
+
+body
+{
+    font-family: 'Work Sans', 'serif';
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+    width: 18%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+    border: solid white;
+    border-radius: 50%;
+}
+
+img:hover{
+    border-color: #ff7cf4;
+    cursor: pointer;
+}
+
+.icon
+{
+    text-align: center;
+    margin-top: 10%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color:#121b23;
+}
+
+ul{
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.navbar li:hover{
+    color:#121b23;
+    background-color: rgba(255, 124, 244, 0.8);; 
+}
+
+.flex
+{
+	display: flex;
+    justify-content: space-around;
+	margin-left:30%;
+	margin-right: 30%;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+#ficons
+{
+	margin:20px;
+	padding-top: 13px;
+}
+
+#ficons a:hover{
+    color: #ff7cf4;
+}
+
+.contact
+{
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+}
